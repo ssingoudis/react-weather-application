@@ -17,15 +17,15 @@
 
 .city {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1;
-    margin: 0;
+    margin: 20px auto 0 auto;
     letter-spacing: 1px;
 }
 
 .weather-description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1;
     margin: 0;
 }
