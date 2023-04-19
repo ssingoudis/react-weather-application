@@ -28,6 +28,7 @@
     font-size: 17px;
     line-height: 1;
     margin: 0;
+    padding-top: 4px;
 }
 
 .weather-icon {
@@ -59,7 +60,6 @@
 }
 
 .parameter-label.top {
-    /*border-bottom: 1px solid #fff;*/
     margin-bottom: 7px;
     font-weight: 900;
     letter-spacing: .5px;
