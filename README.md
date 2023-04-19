@@ -34,7 +34,7 @@
     * react-accessible-accordion (detailed information: https://www.npmjs.com/package/react-accessible-accordion?activeTab=readme)
     * react-select-async-paginate (detailed information: https://www.npmjs.com/package/react-select-async-paginate?activeTab=readme)
  
-   ## I created seperate file including my personal API keys which is hidden in the public GitHub Version
+   ## I created a seperate file including my personal API keys which is hidden in the public GitHub Version
  
 # Getting Started with Create React App
 
