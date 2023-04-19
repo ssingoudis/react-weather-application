@@ -1,3 +1,41 @@
+## This Project is using the following APIs
+  The free Version of Open Weather API:
+  https://openweathermap.org/price#weather
+  
+  GeoDB Cities from RapidAPI for Cities with a minimum population of 200 000 people:
+  https://rapidapi.com/wirefreethought/api/geodb-cities
+ 
+ ## Functions
+  - It is possible to search cities with min population > 200 000
+  
+  - See the current weather including:
+    * the correct weather-icon
+    * Temperature in °C
+    * Feels like Temperature in °C
+    * Wind in m/s
+    * Pressure in hPa
+    * Humidity in %
+  
+  - See the weather forecast for the next 7 days with a preview of:
+    * minimum Temperature in °C
+    * Maximum Temperature in °C
+    * Weather desciption
+    * Weather-icon
+    * Weekday
+ 
+  - Detailed forecast information onClick:
+    * Feels like Temperature in °C
+    * Wind in m/s
+    * Pressure in hPa
+    * Humidity in %
+    
+    
+   ## This project is using the following Items:
+    * react-accessible-accordion (detailed information: https://www.npmjs.com/package/react-accessible-accordion?activeTab=readme)
+    * react-select-async-paginate (detailed information: https://www.npmjs.com/package/react-select-async-paginate?activeTab=readme)
+ 
+   ## I created seperate file including my personal API keys which is hidden in the public GitHub Version
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
