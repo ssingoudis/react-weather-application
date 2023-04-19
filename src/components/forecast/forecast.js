@@ -1,3 +1,4 @@
+// import Items
 import {
   Accordion,
   AccordionItem,
@@ -27,8 +28,8 @@ const Forecast = ({ data }) => {
 
   return (
     <>
-      <Accordion allowZeroExpanded>
-      <label className="title">Upcoming Week</label>
+      <h2 className='title'>Upcoming Week</h2>
+      <Accordion allowZeroExpanded className='accordion'>
         {data.list.splice(0, 7).map((item, index) => (
           <AccordionItem key={index}>
             <AccordionItemHeading>

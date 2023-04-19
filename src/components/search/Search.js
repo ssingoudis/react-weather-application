@@ -1,6 +1,11 @@
+//import Hooks
 import React, { useState } from "react";
+
+//import components
 import { AsyncPaginate } from "react-select-async-paginate";
 import { geoApiOptions, GEO_API_URL } from "../../API";
+
+
 
 function Search({ onSearchChange }) {
  
@@ -25,9 +30,6 @@ function Search({ onSearchChange }) {
       .catch((err) => console.error(err));
   };
 
-//   2. handleOnChange get called with passed data (searchData) 
-//   and sets new Value for setSearch  + call onSearchChange function
-//   which has been passed from the App.js File
   const handleOnChange = (searchData) => {
     setSearch(searchData);
     onSearchChange(searchData);
@@ -38,7 +40,6 @@ function Search({ onSearchChange }) {
       placeholder="Search for city.."
       debounceTimeout={600}
       value={search}
-    //   1. call onchange Method handleOnChange
       onChange={handleOnChange}
       loadOptions={loadOptions}
     />

@@ -40,7 +40,6 @@ function App() {
 
   return (
     <div className="container">
-      {/* 3. onSearchChange calls the handleOnSearchChange Method which console.logs the data */}
       <Search onSearchChange={handleOnSearchChange} />
       {weather && <CurrentWeather data={weather} />}
       {forecast && <Forecast data={forecast}/>}

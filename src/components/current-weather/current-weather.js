@@ -1,3 +1,4 @@
+// import styles
 import './current-weather.css'
 
 const CurrentWeather = ({ data }) => {
